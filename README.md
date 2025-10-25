@@ -18,7 +18,7 @@ To get started with the TuToR app locally:
 Clone the repository:
 bash
 Copy code
-git clone https://gitlab.cs.uct.ac.za/mkntha093/tutor.git
+git clone https://github.com/LethaboCodes/TuToR-App.git
 cd tutor
 Install the dependencies:
 bash
@@ -51,11 +51,6 @@ Create your feature branch (git checkout -b feature/AmazingFeature).
 Commit your changes (git commit -m 'Add some AmazingFeature').
 Push to the branch (git push origin feature/AmazingFeature).
 Open a pull request.
-Authors and Acknowledgments
-Thabang Mokoena - Main developer.
-Special thanks to contributors who have supported the development of this app.
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-Project Status
-This project is actively being developed. Contributions and feedback are welcome!
