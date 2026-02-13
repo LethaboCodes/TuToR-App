@@ -4,7 +4,7 @@
     "slug": "TuToR",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/Splash.png",
+    "icon": "./assets/images/emoji2.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/images/Splash.png",
@@ -12,11 +12,15 @@
       "backgroundColor": "#00243a"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lethabo07.TuToR",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/Splash.png",
+        "foregroundImage": "./assets/images/emoji2.png",
         "backgroundColor": "#00243a"
       }
     },
@@ -30,8 +34,13 @@
         {
           "iCloudContainerEnvironment": "Production"
         }
-      ]
-
-    ]
+      ],
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "6842f23d-004b-401f-a872-010258cb78ab"
+      }
+    }
   }
 }
